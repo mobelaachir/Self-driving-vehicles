@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>duckiebot_slam</name>
+  <version>1.0.0</version>
+  <description>Duckiebot SLAM project</description>
+  <maintainer email="mohamed@example.com">Mohamed</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf</depend>
+  <depend>duckietown_msgs</depend>
+</package>
